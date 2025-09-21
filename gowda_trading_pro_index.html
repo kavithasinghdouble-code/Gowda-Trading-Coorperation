@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gowda Trading Corporation</title>
+<style>
+body {margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f8f9fa;color:#333;}
+header {background:#003366;color:#fff;padding:20px;text-align:center;}
+header h1 {margin:0;font-size:2.2rem;}
+nav {margin-top:10px;}
+nav a {color:#fff;text-decoration:none;margin:0 15px;font-weight:bold;}
+.hero {background-image:url('https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1470&q=80');height:300px;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;color:#fff;font-size:2rem;font-weight:bold;text-shadow:1px 1px 4px #000;}
+section {padding:40px;max-width:1000px;margin:auto;}
+section h2 {color:#003366;margin-bottom:20px;}
+.services,.reviews,.awards,.assets {display:flex;flex-wrap:wrap;gap:20px;}
+.card {background:#fff;flex:1;min-width:250px;padding:20px;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+footer {background:#003366;color:#fff;text-align:center;padding:15px;margin-top:30px;}
+form {display:flex;flex-direction:column;gap:10px;}
+input,textarea,button {padding:10px;border:1px solid #ccc;border-radius:5px;font-size:1rem;}
+button {background:#003366;color:#fff;border:none;cursor:pointer;}
+button:hover {background:#0055aa;}
+.whatsapp {display:inline-block;background:#25D366;color:#fff;padding:12px 20px;border-radius:5px;text-decoration:none;font-weight:bold;margin-top:15px;}
+.badge {display:inline-block;background:#28a745;color:#fff;padding:8px 12px;border-radius:20px;font-size:0.9rem;margin-top:10px;text-align:center;}
+.asset-price {font-size:1.2rem;font-weight:bold;margin-top:5px;}
+.asset-change {font-size:0.9rem;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Gowda Trading Corporation</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#assets">Markets</a>
+<a href="#reviews">Reviews</a>
+<a href="#awards">Awards</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="badge">✅ Government Certified & Approved</div>
+</header>
+
+<div class="hero">
+Smart Investment Strategies for Every Market
+</div>
+
+<section id="about">
+<h2>About Us</h2>
+<p>At Gowda Trading Corporation, we provide trusted financial services backed by proven strategies. We empower individuals and businesses with smart investment solutions that drive long-term success. With integrity, expertise, and results, we help our clients grow and secure their future.</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card"><img src="https://img.icons8.com/color/48/000000/stock.png"/><h3>Investment Strategies</h3><p>Tailored investment approaches to maximize returns while managing risk effectively.</p></div>
+<div class="card"><img src="https://img.icons8.com/color/48/000000/consultation.png"/><h3>Financial Advisory</h3><p>Expert guidance to make informed financial decisions and secure your financial future.</p></div>
+<div class="card"><img src="https://img.icons8.com/color/48/000000/wealth.png"/><h3>Wealth Management</h3><p>Comprehensive wealth-building solutions focusing on sustainable growth and freedom.</p></div>
+</div>
+</section>
+
+<section id="assets">
+<h2>Live Market Prices</h2>
+<div class="assets">
+<div class="card">
+<h3>Bitcoin (BTC)</h3>
+<div class="asset-price" id="btc-price">Loading...</div>
+<div class="asset-change" id="btc-change"></div>
+</div>
+<div class="card">
+<h3>Ethereum (ETH)</h3>
+<div class="asset-price" id="eth-price">Loading...</div>
+<div class="asset-change" id="eth-change"></div>
+</div>
+<div class="card">
+<h3>Nifty 50</h3>
+<div class="asset-price" id="nifty-price">₹19,800</div>
+<div class="asset-change" id="nifty-change">+0.5%</div>
+</div>
+<div class="card">
+<h3>USD/INR</h3>
+<div class="asset-price" id="usd-price">₹83.5</div>
+<div class="asset-change" id="usd-change">+0.1%</div>
+</div>
+</div>
+</section>
+
+<section id="reviews">
+<h2>What Our Clients Say</h2>
+<div class="reviews">
+<div class="card"><p>"Excellent service! My investments grew steadily and I feel very secure."<br><b>- Ramesh Kumar, Bengaluru</b></p></div>
+<div class="card"><p>"Professional team and transparent strategies. I recommend them to anyone."<br><b>- Priya Sharma, Mumbai</b></p></div>
+<div class="card"><p>"Reliable and trustworthy company. Their government approval gave me confidence."<br><b>- Anil Mehta, Delhi</b></p></div>
+<div class="card"><p>"Customer support is amazing. Quick responses on WhatsApp and very helpful."<br><b>- Kavita Reddy, Hyderabad</b></p></div>
+</div>
+</section>
+
+<section id="awards">
+<h2>Awards & Recognition</h2>
+<div class="awards">
+<div class="card"><h3>🏆 Best Financial Services Firm 2023</h3><p>Awarded by Indian Business Excellence Forum for outstanding client results.</p></div>
+<div class="card"><h3>🌍 Trusted Investment Brand</h3><p>Recognized as one of the most reliable investment service providers in India.</p></div>
+<div class="card"><h3>⭐ Excellence in Wealth Management</h3><p>Certified for innovation and growth strategies in financial markets.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>We’d love to hear from you. Get in touch today!</p>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" rows="5" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<br>
+<a href="https://wa.me/message/XHPVUEWBJRZTD1" class="whatsapp">💬 Contact Us on WhatsApp</a>
+</section>
+
+<footer>
+<p>&copy; 2025 Gowda Trading Corporation. All rights reserved.</p>
+</footer>
+
+<script>
+// Fetch crypto prices from CoinGecko API
+async function fetchCrypto() {
+    try {
+        let response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=inr&include_24hr_change=true');
+        let data = await response.json();
+        document.getElementById('btc-price').textContent = "₹" + data.bitcoin.inr.toLocaleString();
+        document.getElementById('btc-change').textContent = data.bitcoin.inr_24h_change.toFixed(2) + "%";
+        document.getElementById('eth-price').textContent = "₹" + data.ethereum.inr.toLocaleString();
+        document.getElementById('eth-change').textContent = data.ethereum.inr_24h_change.toFixed(2) + "%";
+    } catch (e) {
+        console.error(e);
+    }
+}
+fetchCrypto();
+setInterval(fetchCrypto, 30000); // update every 30 sec
+</script>
+
+</body>
+</html>
